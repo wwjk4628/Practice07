@@ -15,10 +15,19 @@ public class Ractangle extends Shape{
 		System.out.println("[사각형]#면색:" +super.fillColor+ " "
 				+ " #가로:" + width 
 				+" #세로:" + height + "그렸습니다.");      
-		width();
+		
 	}
-	public void width() {
-		System.out.printf("가로크기:%d%n",width);
+	public int getHeight() {
+		return height;
+	}
+	public void setHeight(int height) {
+		this.height = height;
+	}
+	public int getWidth() {
+		return width;
+	}
+	public void setWidth(int width) {
+		this.width = width;
 	}
 		
 

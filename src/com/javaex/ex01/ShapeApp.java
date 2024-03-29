@@ -12,7 +12,8 @@ public class ShapeApp {
 		//sr1을 그리는 메소드 호출
 		sr1.draw();
 		//sr1의 가로크기 출력
-		
+		int sr1Width = ((Ractangle)sr1).getWidth();
+		System.out.println("sr1의 가르는 " + sr1Width);
 	}
 }
 
